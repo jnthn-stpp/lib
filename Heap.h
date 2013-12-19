@@ -6,4 +6,10 @@ class Heap{
 		void* dta;
 	}
 	Item root;
+	public:
+	Heap();
+	~Heap();
+	void add(void* data);
+	void* getRoot();
+	
 }
