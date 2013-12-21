@@ -1,15 +1,16 @@
+template <class T>
 class Heap{
 	struct Item{
-		Item( void* data);
+		Item( T data );
 		~Item();
 		Item* nxt;
-		void* dta;
+		T dta;
 	}
-	Item root;
+	Item* root;
 	public:
 	Heap();
 	~Heap();
-	void add(void* data);
-	void* getRoot();
+	void append(T data);
+	T pop();
 	
 }
