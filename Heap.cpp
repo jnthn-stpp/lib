@@ -3,7 +3,7 @@
 Heap::Heap(){
 
 }
-Heap::Item( T data){
+Heap::Item(T data){
 	dta = data;
 
 }
