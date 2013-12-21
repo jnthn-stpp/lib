@@ -4,8 +4,10 @@ class Heap{
 		Item( T data );
 		~Item();
 		Item* nxt;
+		Item* lst;
 		T dta;
 	}
+	Boolean bubble( Item* itm );
 	Item* root;
 	public:
 	Heap();
