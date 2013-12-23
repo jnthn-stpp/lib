@@ -3,7 +3,11 @@
 Heap::Heap(){
 
 }
+<<<<<<< HEAD
 Heap::Item::Item( T data){
+=======
+Heap::Item(T data){
+>>>>>>> fe84471922e84c904cdbc7d6a2c1473e85364cce
 	dta = data;
 
 }
